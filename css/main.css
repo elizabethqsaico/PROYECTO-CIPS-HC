@@ -1,0 +1,40 @@
+*{
+	outline:1px solid rgba(255,0,0,0.3);
+}
+body{
+	font-family: "Latolight";
+	font-size: 16px;
+	color: #0B2161;
+}
+h1,h2,h3{
+	font-family: "Latolight";
+	font-size: 22px;
+	color: #0B2161;
+	margin: 0;
+}
+@font-face{
+	font-family:Latolight ;
+	src: url(../fonts/Latolight.ttf);
+}
+a{
+	text-decoration: none;
+}
+.text-center{
+	text-align: center;
+}
+.lista-sinestilo{
+	list-style-type: none;
+	margin: 0;
+}
+.lista-sinestilo li{
+	display: inline-block;
+}
+.pt-5{
+	padding-top: 5%;
+}
+.pl-2{
+	padding-left: 2%;
+}
+header img{
+	max-width: 50%;
+}
