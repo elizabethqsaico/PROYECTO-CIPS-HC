@@ -5,13 +5,13 @@ body{
 hr{
 	border-color: #fff;
 	width: 65%;
-	
 }
+
 .siglas{
 	font-size: 500%;
 	color: #fff;
 	text-align: center;
-	margin-bottom: 1%;
+	margin-top: 11%;
 	}
 .nombre{
 	font-size: 300%;
@@ -57,7 +57,7 @@ hr{
 	height: 100%;}
 /* Here you go: This is what you need to get this menu */
 ul#darkmenu {
-    margin-top: 3%;        				/* Well, you don't need this... */
+    margin-top: 1%;        				/* Well, you don't need this... */
     display: inline-block;  				/* ... and this, this just centers the menu. */ 
     list-style: none;
     font-family: 'Gudea', sans-serif;	   /* Change this to use another font */
