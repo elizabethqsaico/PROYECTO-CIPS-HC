@@ -26,7 +26,7 @@
 	height: 100%;
 }
 ul#darkmenu {
-    margin-top: 3%;        				
+    margin-top: 3%;      				
     display: inline-block;  				
     list-style: none;
     text-align: left;
@@ -95,6 +95,7 @@ body{
 	font-family: "Latolight";
 	font-size: 16px;
 	color: #0B2161;
+	background: url(../imagenes/index-fondo.jpg);
 }
 h1,h2,h3{
 	font-family: "Latolight";
@@ -131,11 +132,11 @@ a{
 .pt-5{
 	padding-top: 5%;
 }
-.pt-25{
-	padding-top: 25%;
+.pt-50{
+	padding-top: 50%;
 }
-.pb-25{
-	padding-bottom: 25%;
+.pb-40{
+	padding-bottom: 40%;
 }
 .pl-2{
 	padding-left: 2%;
@@ -152,6 +153,7 @@ header img{
 	margin: 0;
 	padding: 0;
 }
+
 .unete p:hover{
 	color: #0B2161;
 }
@@ -163,4 +165,7 @@ header img{
 .redes img:hover{
 	transform: scale(1.1);
 	border-bottom: 1px solid #0B2161;
+}
+.opacity{
+	background-color: rgba(255, 255, 255, 0.7);
 }
