@@ -52,7 +52,6 @@ body{
 	font-family: "Latolight";
 	font-size: 16px;
 	color: #0B2161;
-	background: url(../imagenes/index-fondo.jpg);
 }
 h1,h2,h3{
 	font-family: "Latolight";
@@ -93,6 +92,9 @@ a{
 	padding-top: 3%;
 	padding-bottom: 4%;
 }
+.pd-2{
+	padding: 2%;
+}
 .pd-5{
 	padding: 5%;
 }
@@ -116,8 +118,6 @@ header img{
 	float: right;
 }
 .unete{
-	margin-top: 50%;
-	padding: 0;
 }
 .unete button{
 	border: none;
@@ -125,14 +125,13 @@ header img{
 	background: rgba(0,0,0,0);
 }
 .unete img{
-	max-width: 20%;
-	margin-bottom: 4%;
+	max-width: 15%;
 }
 .unete #ejm2 li a{
     position: relative;
     font-weight:bold;
     color:#0B2161;
-    margin: 5%;
+    margin: 5% auto;
     text-decoration: none;
 }
 .unete #ejm2 >li{
@@ -157,15 +156,15 @@ header img{
     transform: translateY(10px)
 }
 .redes img{
-	max-width: 14%;
-	margin: 0;
-	padding-bottom: 2%;
+    max-width: 20%;
+    margin: 0;
+    padding-bottom: 2%;
 }
 .redes #ejm2 li a{
     position: relative;
     font-weight:bold;
     color:#0B2161;
-    margin: 2%;
+    padding-bottom: 7%;
     text-decoration: none;
 }
 .redes #ejm2 >li{
@@ -198,6 +197,21 @@ header img{
 }
 .contacto{
 	border-radius: 5%;
-	border: 2px solid #0B2161;
-	margin: 3% auto;
+	border: 1px solid #0B2161;
+	margin: 2% auto;
+}
+.fixed-left{
+    position: fixed;
+    right: 92%;
+    top: 29%;
+    left: -4%;
+}
+.fixed-right{
+    position: fixed;
+    left: 88%;
+    bottom: 84%;
+}
+.position{
+	padding-top: 7%;
+	padding-bottom: 5%;
 }
