@@ -52,7 +52,6 @@ body{
 	font-family: "Latolight";
 	font-size: 16px;
 	color: #0B2161;
-	background: url(../imagenes/index-fondo.jpg);
 }
 h1,h2,h3{
 	font-family: "Latolight";
@@ -157,7 +156,7 @@ header img{
     transform: translateY(10px)
 }
 .redes img{
-	max-width: 14%;
+	max-width: 18%;
 	margin: 0;
 	padding-bottom: 2%;
 }
@@ -200,4 +199,13 @@ header img{
 	border-radius: 5%;
 	border: 2px solid #0B2161;
 	margin: 3% auto;
+}
+.fixed{
+    position: fixed;
+    right: 92%;
+    top: 29%;
+}
+.position{
+	padding-top: 7%;
+	padding-bottom: 5%;
 }
