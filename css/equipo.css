@@ -1,6 +1,26 @@
 /**{
     outline:1px solid rgba(255,0,0,0.3);
 }*/
+body{
+    
+    font-family: "Latolight";
+    font-size: 16px;
+    background-color:#fff;
+}
+h1,h2,h3{
+    font-family: "Latolight";
+    font-size: 22px;
+    color: #0B2161;
+    margin: 0;
+}
+@font-face{
+    font-family:Latolight ;
+    src: url(../fonts/Latolight.ttf);
+}
+a{
+    text-decoration: none;
+    color: #0B2161;
+}
 
 /*menu*/
 .a_line{
@@ -37,7 +57,6 @@
 
 /*Integrantes*/
 .pag_int{
-    background-color: rgba(81, 108, 197, 0.3);
     padding: 0;
     margin: 0;
 }
@@ -50,31 +69,38 @@ img{
     margin: 5% 3%;
     display: inline-block;
     vertical-align: top;
-     
+    text-align: center; 
+    color:#0B2161;
+    font-weight: bold;
+    font-size: 13px;
+}
+.pag_int:hover{
+-moz-box-shadow: -5px -5px 12px #01091f;
+-webkit-box-shadow: -5px -5px 12px #01091f;
+box-shadow: -5px -5px 12px #01091f;
+}
+li.fot_inst > img{
+    border-radius: 100%;
 }
 .titulos{
     margin: 0;
     padding: 2%;
     text-align: center;
     color: #0B2161;
-
 }
-
-.text_integr{
-    text-align: center;
-    font-size: 12px;
-    text-decoration: none;
-    list-style-type: none;
-    color: black;
-
-}
-
-.trabajos_eqip{
-    background: #0B2161;
-    padding: 2%;
-    text-align: center;
-}
-.raya:after{
+.raya{
+        text-decoration:none;
+        position: relative;
+        font-weight:bold;
+        color:#0B2161;
+        margin: 0px 50px;
+          }
+.raya:hover:after{
+        opacity:1;
+        transform: translateY(15px);
+        text-decoration:none;
+   }
+    .raya:after{
        position: absolute;
         bottom: 7px;
         left: 0px;
@@ -85,63 +111,13 @@ img{
         opacity: 0;
         transition: opacity 0.5s ease 0s, transform 0.5s ease 0s;
         transform: translateY(20px); 
-   
+     }
+    ul.fot_inst >li{
+        display: inline-block;
+        list-style-type: none;
+        margin-top: 4%;
     }
-    .raya:hover:after{
-        opacity:1;
-        transform: translateY(15px);
-
-    }
-    .raya{
-        position: relative;
-        font-weight:bold;
-        color:#0B2161;
-        margin: 0px 78px;
-        text-decoration: none;
-        text-align: center;
-        
-        }
-.anaran{
-    background-color: rgba(199, 88, 25, 1);
-    color: #fff;
-}
-.blu{
-    background-color: rgba(21, 42, 139, 0.9);
-    color: #fff;
-}
-.rojo{
-    background-color: rgba(202, 27, 32, 0.9);
-    color: #fff;
-}
-.fot_inst >a > img{
-    border-radius: 100%;
-}
-.pag_int:hover{
--moz-box-shadow: -5px -6px 13px #171e47;
--webkit-box-shadow: -5px -6px 13px #171e47;
-box-shadow: -5px -6px 13px #171e47;
-}
-body{
-    background: url(../imagenes/fondox.jpg);
-    font-family: "Latolight";
-    font-size: 16px;
-    background-color:#fff;
-    
-}
-h1,h2,h3{
-    font-family: "Latolight";
-    font-size: 22px;
-    color: #0B2161;
-    margin: 0;
-}
-@font-face{
-    font-family:Latolight ;
-    src: url(../fonts/Latolight.ttf);
-}
-a{
-    text-decoration: none;
-    color: #0B2161;
-}
+/*integrantes*/
 .text-center{
     text-align: center;
 }
