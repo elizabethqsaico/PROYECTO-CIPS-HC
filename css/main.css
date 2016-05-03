@@ -155,45 +155,8 @@ header img{
     opacity:1;
     transform: translateY(10px)
 }
-.redes img{
-    max-width: 20%;
-    margin: 0;
-    padding-bottom: 2%;
-}
-.redes #ejm2 li a{
-    position: relative;
-    font-weight:bold;
-    color:#0B2161;
-    padding-bottom: 7%;
-    text-decoration: none;
-}
-.redes #ejm2 >li{
-    display: inline-block;
-    list-style-type: none;
-    margin-top: 3%;
-}
-.redes #ejm2 li a:after{
-    position: absolute;
-    bottom: 5px;
-    left: 0px;
-    width: 100%;
-    height: 4px;
-    background-color: #0B2161;
-    content: "";
-    opacity: 0;
-    transition: opacity 0.5s ease 0s, transform 0.5s ease 0s;
-    transform: translateY(8px);              
-}
-.redes #ejm2 li a:hover:after{
-    opacity:1;
-    transform: translateY(7px)
-}
 .opacity{
 	background-color: rgba(255, 255, 255, 0.7);
-}
-.borde-referencial{
-	border: 1px solid #000;
-	height: 500px;
 }
 .contacto{
 	border-radius: 5%;
@@ -202,14 +165,59 @@ header img{
 }
 .fixed-left{
     position: fixed;
-    right: 92%;
-    top: 29%;
-    left: -4%;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    transition: transform .3s cubic-bezier(.4,0,.2,1);
+    transition-delay: .3s;
+    pointer-events: auto;
+    margin: 2.5rem;
+}
+.redes-fixed{
+	margin-left: -1.125rem;
+    margin-bottom: -1.125rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.redes-fixed-item{
+	display: list-item;
+    text-align: -webkit-match-parent;
+    margin-bottom: 2%;
+}
+.redes-fixed-item img:hover{
+	border-bottom: 2px solid #0B2161;
+    opacity:1;
+    transform: translateY(3px);
+}
+.redes-fixed-item img{
+	max-width: 5%;
+	padding-bottom: 1%;
 }
 .fixed-right{
     position: fixed;
-    left: 88%;
-    bottom: 84%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    transition: transform .3s cubic-bezier(.4,0,.2,1);
+    transition-delay: .3s;
+    pointer-events: auto;
+    margin: 2.5rem;
+}
+.unete-fixed{
+	margin-left: -1.125rem;
+    margin-bottom: -1.125rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.unete-fixed-item{
+	display: inline-block;
+    text-align: -webkit-match-parent;
+    margin-top: 2%;
+}
+.unete-fixed-item img{
+	max-width: 5%;
 }
 .position{
 	padding-top: 7%;
