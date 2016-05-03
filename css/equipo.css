@@ -1,0 +1,133 @@
+
+@-webkit-keyframes hover {
+    0% { background: #819FF7 }
+    100% { background: #0B2161 }
+}
+@-moz-keyframes hover {
+    0% { background: #819FF7 }
+    100% { background: #0B2161 }
+}
+@-ms-keyframes hover {
+    0% { background: #819FF7 }
+    100% { background: #0B2161 }
+}
+@-o-keyframes hover {
+    0% { background: #819FF7 }
+    100% { background: #0B2161 }
+}
+@keyframes hover {
+    0% { background: #819FF7 }
+    100% { background: #0B2161 }
+}
+#content {
+    width: 100%; 
+    height: 100%;
+}
+      ul#ejm2 li a{
+        position: relative;
+        font-weight:bold;
+        color:#0B2161;
+        margin: 0px 15px;
+        text-decoration: none;
+        }
+    ul#ejm2 >li{
+        display: inline-block;
+        list-style-type: none;
+        margin-top: 3%;
+    }
+    ul#ejm2 li a:after{
+        position: absolute;
+        bottom: 7px;
+        left: 0px;
+        width: 100%;
+        height: 4px;
+        background-color: #0B2161;
+        content: "";
+        opacity: 0;
+        transition: opacity 0.5s ease 0s, transform 0.5s ease 0s;
+        transform: translateY(20px); 
+             
+    }
+    ul#ejm2 li a:hover:after{
+        opacity:1;
+        transform: translateY(15px)
+    }
+
+/*body{
+    font-family: "Latolight";
+    font-size: 16px;
+    color: #0B2161;
+    background: url(../imagenes/index-fondo.jpg);
+}*/
+h1,h2,h3{
+    font-family: "Latolight";
+    font-size: 22px;
+    color: #0B2161;
+    margin: 0;
+}
+@font-face{
+    font-family:Latolight ;
+    src: url(../fonts/Latolight.ttf);
+}
+a{
+    text-decoration: none;
+    color: #0B2161;
+}
+.text-center{
+    text-align: center;
+}
+.text-gray{
+    color:#424242;
+}
+.lista-sinestilo{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.display-ib{
+    display: inline-block;
+}
+.ptb-2{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.pt-5{
+    padding-top: 5%;
+}
+.pt-50{
+    padding-top: 50%;
+}
+.pb-40{
+    padding-bottom: 40%;
+}
+.pl-2{
+    padding-left: 2%;
+}
+header img{
+    max-width: 80%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    position: relative;
+    float: right;
+}
+.unete img{
+    max-width: 35%;
+    margin: 0;
+    padding: 0;
+}
+
+.unete p:hover{
+    color: #0B2161;
+}
+.redes img{
+    max-width: 15%;
+    margin: 0;
+    padding: 0;
+}
+.redes img:hover{
+    transform: scale(1.1);
+    border-bottom: 1px solid #0B2161;
+}
+.opacity{
+    background-color: rgba(255, 255, 255, 0.7);
+}
