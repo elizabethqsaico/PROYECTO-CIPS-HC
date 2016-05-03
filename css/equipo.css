@@ -15,7 +15,7 @@
     ul#ejm2 >li{
         display: inline-block;
         list-style-type: none;
-        margin-top: 3%;
+        margin-top: 4%;
     }
     .a_line:after{
         position: absolute;
@@ -36,6 +36,11 @@
     }
 
 /*Integrantes*/
+.pag_int{
+    background-color: rgba(81, 108, 197, 0.3);
+    padding: 0;
+    margin: 0;
+}
 img{
     max-width: 100%;
 }
@@ -48,7 +53,8 @@ img{
      
 }
 .titulos{
-    margin: 3% 0%;
+    margin: 0;
+    padding: 2%;
     text-align: center;
     color: #0B2161;
 
@@ -95,13 +101,33 @@ img{
         text-align: center;
         
         }
-
-/*body{
+.anaran{
+    background-color: rgba(199, 88, 25, 1);
+    color: #fff;
+}
+.blu{
+    background-color: rgba(21, 42, 139, 0.9);
+    color: #fff;
+}
+.rojo{
+    background-color: rgba(202, 27, 32, 0.9);
+    color: #fff;
+}
+.fot_inst >a > img{
+    border-radius: 100%;
+}
+.pag_int:hover{
+-moz-box-shadow: -5px -6px 13px #171e47;
+-webkit-box-shadow: -5px -6px 13px #171e47;
+box-shadow: -5px -6px 13px #171e47;
+}
+body{
+    background: url(../imagenes/fondox.jpg);
     font-family: "Latolight";
     font-size: 16px;
-    color: #0B2161;
-    background: url(../imagenes/index-fondo.jpg);
-}*/
+    background-color:#fff;
+    
+}
 h1,h2,h3{
     font-family: "Latolight";
     font-size: 22px;
