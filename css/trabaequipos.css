@@ -105,7 +105,7 @@ a{
 /* estilo solo al logo*/
 header img{
     max-width: 80%;
-    float: right;
+    padding-bottom: 10%;
 }
 /* inicio estilo para seccion de redes*/
 .fixed-left{
@@ -150,6 +150,7 @@ header img{
     transition-delay: .3s;
     pointer-events: auto;
     margin: 2.5rem; 
+    width: 200px;
 }
 .unete-fixed{
     margin-left: -1.125rem;
@@ -164,15 +165,16 @@ header img{
     margin-top: 1%;
 }
 .unete-img{
-    max-width: 7%;
+    max-width: 42%;
     float: right;
     margin-right: 8.5rem;
+    margin-top: 1.5rem;
 }
 .unete-img:hover{
     border-bottom: 2px solid #0B2161;
     background: #ccc;
     opacity:1;
-    transform: translateY(5px);
+    transform: translateY(-3px);
 }/* fin estilo para seccion de unete*/
 .contacto{
     border-radius: 5%;
