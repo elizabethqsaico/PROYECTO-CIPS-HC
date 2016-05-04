@@ -204,17 +204,11 @@ li.fot_inst > img{
     text-align: center;
     color: #0B2161;
 }
-.proxima{
-    object-fit: cover;
-     vertical-align: top; 
-      -webkit-filter:blur(3px); 
-}
+
 
 .fot_inst:hover .proxima {
     -webkit-filter: none;
 }
-
-
 /*pagina interior*/
 .pag_int{
     padding: 0;
@@ -225,4 +219,6 @@ li.fot_inst > img{
 -webkit-box-shadow: -5px -5px 12px #01091f;
 box-shadow: -5px -5px 12px #01091f;
 }
-
+hr{
+    border-color:#0B2161;
+}
