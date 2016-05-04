@@ -1,4 +1,7 @@
 /* inicio menu principal */
+/**{
+    outline:1px solid rgba(255,0,0,0.3);
+} */
 @-webkit-keyframes hover {
     0% { background: #819FF7 }
     100% { background: #0B2161 }
@@ -179,4 +182,40 @@ header img{
 	border-radius: 5%;
 	border: 1px solid #0B2161;
 	margin: 2% auto;
+}
+
+
+img{
+    max-width: 100%;
+}
+/*boton*/
+.button-trabajo{
+    width: 15%;
+    color:#0B2161;
+    text-align: center;
+    border-color: 1px solid #0B2161 ;
+    margin-top: 2.5%;
+}
+.button-trabajo:hover{
+    border:2px solid #0B2161 ;
+}
+.button-trabajo a:hover{
+    text-decoration: none;
+    color:#011093;
+}
+/*columna 3*/
+
+.col-md-3 >img{
+    width: 72%;
+}
+/*espacio entre filas */
+.pag_int{
+    margin: 5% 0%;
+}
+/*titulo principal*/
+.titulos{
+    margin: 0;
+    padding: 2%;
+    text-align: center;
+    color: #0B2161;
 }
