@@ -74,6 +74,9 @@ a{
 .text-center{
 	text-align: center;
 }
+.text-left{
+    text-align: left;
+}
 /* quitarle el estilo a una lista */
 .lista-sinestilo{
 	list-style-type: none;
@@ -200,7 +203,8 @@ li.fot_inst > img{
 }
 .titulos{
     margin: 0;
-    padding: 2%;
+    padding-top: 2%;
+    padding-bottom: 0;
     text-align: center;
     color: #0B2161;
 }
