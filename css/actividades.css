@@ -180,3 +180,49 @@ header img{
 	border: 1px solid #0B2161;
 	margin: 2% auto;
 }
+/*actividades*/
+.fot_inst{
+    width: 25%;
+    margin: 5% 3%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center; 
+    color:#0B2161;
+    font-weight: bold;
+    font-size: 13px;
+}
+img{
+    max-width: 100%;
+}
+
+li.fot_inst > img{
+    border-radius: 26%;
+}
+.titulos{
+    margin: 0;
+    padding: 2%;
+    text-align: center;
+    color: #0B2161;
+}
+.proxima{
+    object-fit: cover;
+     vertical-align: top; 
+      -webkit-filter:blur(3px); 
+}
+
+.fot_inst:hover .proxima {
+    -webkit-filter: none;
+}
+
+
+/*pagina interior*/
+.pag_int{
+    padding: 0;
+    margin: 0;
+}
+.pag_int:hover{
+-moz-box-shadow: -5px -5px 12px #01091f;
+-webkit-box-shadow: -5px -5px 12px #01091f;
+box-shadow: -5px -5px 12px #01091f;
+}
+
