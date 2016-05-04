@@ -1,11 +1,11 @@
 /* inicio menu principal */
 @-webkit-keyframes hover {
     0% { background: #819FF7 }
-    100% { background: #0B2161 }
+    100% { background: #0A0A2A }
 }
 @-moz-keyframes hover {
     0% { background: #819FF7 }
-    100% { background: #0B2161 }
+    100% { background: #0A0A2A }
 }
 @-ms-keyframes hover {
     0% { background: #819FF7 }
@@ -13,16 +13,16 @@
 }
 @-o-keyframes hover {
     0% { background: #819FF7 }
-    100% { background: #0B2161 }
+    100% { background: #0A0A2A }
 }
 @keyframes hover {
     0% { background: #819FF7 }
-    100% { background: #0B2161 }
+    100% { background: #0A0A2A }
 }
 ul#ejm2 li a{
     position: relative;
     font-weight:bold;
-    color:#0B2161;
+    color:#0A0A2A;
     margin: 0px 15px;
     text-decoration: none;
 }
@@ -37,7 +37,7 @@ ul#ejm2 li a:after{
     left: 0px;
     width: 100%;
     height: 4px;
-    background-color: #0B2161;
+    background-color: #0A0A2A;
     content: "";
     opacity: 0;
     transition: opacity 0.5s ease 0s, transform 0.5s ease 0s;
@@ -52,12 +52,12 @@ ul#ejm2 li a:hover:after{
 body{
 	font-family: "Latolight";
 	font-size: 16px;
-	color: #0B2161;
+	color: #0A0A2A;
 }
 h1,h2,h3{
 	font-family: "Latolight";
 	font-size: 22px;
-	color: #0B2161;
+	color: #0A0A2A;
 	margin: 0;
 }
 /* aqui se dice donde esta el tipo de letra que usamos */
@@ -68,11 +68,15 @@ h1,h2,h3{
 /* estilo para todos los a */
 a{
 	text-decoration: none;
-	color: #0B2161;
+	color: #0A0A2A;
 }
 /* alinear un elemento en el centro */
 .text-center{
 	text-align: center;
+}
+/* alinear un elemento en el centro */
+.text-right{
+    text-align: right;
 }
 /* quitarle el estilo a una lista */
 .lista-sinestilo{
@@ -110,7 +114,7 @@ header img{
 /* inicio estilo para seccion de redes*/
 .fixed-left{
     position: fixed;
-    bottom: 0;
+    bottom: 0rem;
     left: 0;
     z-index: 1000;
     transition: transform .3s cubic-bezier(.4,0,.2,1);
@@ -135,14 +139,21 @@ header img{
 	padding-bottom: 1%;
 }
 .redes-fixed-item img:hover{
-	border-bottom: 2px solid #0B2161;
+	border-bottom: 2px solid #0A0A2A;
     opacity:1;
     transform: translateY(3px);
 }
 /* fin estilo para seccion de redes*/
+.frase{
+    font-weight: bold;
+    position: absolute;
+    bottom: 1rem;
+    right: 2.5rem;
+    left: 2.5rem;
+}
 /* inicio estilo para seccion de unete*/
 .fixed-right{
-    position: fixed;
+    position: absolute;
     top: 0;
     right: 0;
     z-index: 1000;
@@ -164,20 +175,26 @@ header img{
     text-align: -webkit-match-parent;
     margin-top: 1%;
 }
-.unete-img{
-    max-width: 42%;
-    float: right;
-    margin-right: 8.5rem;
-    margin-top: 1.5rem;
+#button-unete{
+  background: #fff;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  border: 2px solid #ccc;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 8px 20px 8px 20px;
+  text-decoration: none;
 }
-.unete-img:hover{
-    border-bottom: 2px solid #0B2161;
-    background: #ccc;
-    opacity:1;
-    transform: translateY(-3px);
+#button-unete:hover {
+  background: #fff;
+  border: 2px solid #0A0A2A;
+  text-decoration: none;
+}
+#button-unete a{ color: #0A0A2A; text-decoration: none; font-weight: bold;}
 }/* fin estilo para seccion de unete*/
 .contacto{
 	border-radius: 5%;
-	border: 1px solid #0B2161;
+	border: 1px solid #0A0A2A;
 	margin: 2% auto;
 }
