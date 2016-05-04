@@ -1,14 +1,11 @@
 /* inicio menu principal */
-/**{
-    outline:1px solid rgba(255,0,0,0.3);
-} */
 @-webkit-keyframes hover {
     0% { background: #819FF7 }
-    100% { background: #0B2161 }
+    100% { background: #0A0A2A }
 }
 @-moz-keyframes hover {
     0% { background: #819FF7 }
-    100% { background: #0B2161 }
+    100% { background: #0A0A2A }
 }
 @-ms-keyframes hover {
     0% { background: #819FF7 }
@@ -16,16 +13,16 @@
 }
 @-o-keyframes hover {
     0% { background: #819FF7 }
-    100% { background: #0B2161 }
+    100% { background: #0A0A2A }
 }
 @keyframes hover {
     0% { background: #819FF7 }
-    100% { background: #0B2161 }
+    100% { background: #0A0A2A }
 }
 ul#ejm2 li a{
     position: relative;
     font-weight:bold;
-    color:#0B2161;
+    color:#0A0A2A;
     margin: 0px 15px;
     text-decoration: none;
 }
@@ -40,7 +37,7 @@ ul#ejm2 li a:after{
     left: 0px;
     width: 100%;
     height: 4px;
-    background-color: #0B2161;
+    background-color: #0A0A2A;
     content: "";
     opacity: 0;
     transition: opacity 0.5s ease 0s, transform 0.5s ease 0s;
@@ -53,66 +50,71 @@ ul#ejm2 li a:hover:after{
 /* fin menu principal */
 /* estilo para todo el html */
 body{
-	font-family: "Latolight";
-	font-size: 16px;
-	color: #0B2161;
+    font-family: "Latolight";
+    font-size: 16px;
+    color: #0A0A2A;
 }
 h1,h2,h3{
-	font-family: "Latolight";
-	font-size: 22px;
-	color: #0B2161;
-	margin: 0;
+    font-family: "Latolight";
+    font-size: 22px;
+    color: #0A0A2A;
+    margin: 0;
 }
 /* aqui se dice donde esta el tipo de letra que usamos */
 @font-face{
-	font-family:Latolight ;
-	src: url(../fonts/Latolight.ttf);
+    font-family:Latolight ;
+    src: url(../fonts/Latolight.ttf);
 }
 /* estilo para todos los a */
 a{
-	text-decoration: none;
-	color: #0B2161;
+    text-decoration: none;
+    color: #0A0A2A;
 }
 /* alinear un elemento en el centro */
 .text-center{
-	text-align: center;
+    text-align: center;
+}
+/* alinear un elemento en el centro */
+.text-right{
+    text-align: right;
 }
 /* quitarle el estilo a una lista */
 .lista-sinestilo{
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 /* coloca un 2% arriba y abajo de padding a un elemento*/
 .ptb-2{
-	padding-top: 2%;
-	padding-bottom: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 /* coloca un 3% arriba y 4% abajo de padding a un elemento*/
 .ptb-4{
-	padding-top: 3%;
-	padding-bottom: 4%;
+    padding-top: 3%;
+    padding-bottom: 4%;
 }
 /* coloca un 2% de padding a un elemento*/
 .pd-2{
-	padding: 2%;
+    padding: 2%;
 }
 /* coloca un 5% de padding a un elemento*/
 .pd-5{
-	padding: 5%;
+    padding: 5%;
 }
 /* coloca un 5% arriba de padding a un elemento*/
 .pt-5{
-	padding-top: 5%;
+    padding-top: 5%;
 }
 /* estilo solo al logo*/
 header img{
-	max-width: 80%;
+    max-width: 80%;
+    padding-bottom: 10%;
 }
 /* inicio estilo para seccion de redes*/
 .fixed-left{
     position: fixed;
-    bottom: 0;
+    bottom: 0rem;
     left: 0;
     z-index: 1000;
     transition: transform .3s cubic-bezier(.4,0,.2,1);
@@ -121,30 +123,30 @@ header img{
     margin: 2.5rem;
 }
 .redes-fixed{
-	margin-left: -1.125rem;
+    margin-left: -1.125rem;
     margin-bottom: -1.125rem;
     list-style: none;
     padding: 0;
     margin: 0;
 }
 .redes-fixed-item{
-	display: list-item;
+    display: list-item;
     text-align: -webkit-match-parent;
     margin-bottom: 2%;
 }
 .redes-fixed-item img{
-	max-width: 5%;
-	padding-bottom: 1%;
+    max-width: 5%;
+    padding-bottom: 1%;
 }
 .redes-fixed-item img:hover{
-	border-bottom: 2px solid #0B2161;
+    border-bottom: 2px solid #0A0A2A;
     opacity:1;
     transform: translateY(3px);
 }
 /* fin estilo para seccion de redes*/
 /* inicio estilo para seccion de unete*/
 .fixed-right{
-    position: fixed;
+    position: absolute;
     top: 0;
     right: 0;
     z-index: 1000;
@@ -166,28 +168,27 @@ header img{
     text-align: -webkit-match-parent;
     margin-top: 1%;
 }
-.unete-img{
-    max-width: 42%;
-    float: right;
-    margin-right: 8.5rem;
-    margin-top: 1.5rem;
+#button-unete{
+  background: #fff;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  border: 2px solid #ccc;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 8px 20px 8px 20px;
+  text-decoration: none;
 }
-.unete-img:hover{
-    border-bottom: 2px solid #0B2161;
-    background: #ccc;
-    opacity:1;
-    transform: translateY(-3px);
+#button-unete:hover {
+  background: #fff;
+  border: 2px solid #0A0A2A;
+  text-decoration: none;
+}
+#button-unete a{ color: #0A0A2A; text-decoration: none; font-weight: bold;}
 }/* fin estilo para seccion de unete*/
-.contacto{
-	border-radius: 5%;
-	border: 1px solid #0B2161;
-	margin: 2% auto;
-}
 
 
-img{
-    max-width: 100%;
-}
+
 /*boton*/
 .button-trabajo{
     width: 15%;
@@ -205,17 +206,21 @@ img{
 }
 /*columna 3*/
 
-.col-md-3 >img{
-    width: 72%;
-}
+
 /*espacio entre filas */
 .pag_int{
-    margin: 5% 0%;
+    margin: 3% 0%;
 }
 /*titulo principal*/
 .titulos{
     margin: 0;
-    padding: 2%;
-    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 0;
     color: #0B2161;
+}
+hr{
+    border-color:#0B2161;
+}
+img{
+    max-width: 72%;
 }

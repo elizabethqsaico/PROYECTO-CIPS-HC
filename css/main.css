@@ -78,6 +78,9 @@ a{
 .text-right{
     text-align: right;
 }
+.text-left{
+    text-align: left;
+}
 /* quitarle el estilo a una lista */
 .lista-sinestilo{
 	list-style-type: none;
@@ -193,8 +196,4 @@ header img{
 }
 #button-unete a{ color: #0A0A2A; text-decoration: none; font-weight: bold;}
 }/* fin estilo para seccion de unete*/
-.contacto{
-	border-radius: 5%;
-	border: 1px solid #0A0A2A;
-	margin: 2% auto;
-}
+

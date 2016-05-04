@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-  	<head>
-	  	<title>CIPS-HC</title>
-	    <meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-		<!-- Optional theme -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-		<!-- Latest compiled and minified JavaScript -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-		<link rel="stylesheet" type="text/css" href="css/trabaequipos.css">
-	</head>
+  <head>
+  	<title>CIPS-HC</title>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="css/footer-distributed-with-address-and-phones.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/icomoon/style.css">
+	<link rel="stylesheet" type="text/css" href="css/trabaequipos.css">
+</head>
 <body>
 	<header>
 		<div class="container">
@@ -22,12 +23,11 @@
 				</div>
 				<div class="col-md-8">
 					<ul id="ejm2" class="ptb-4 text-center">
-				          <li><a href="#">Nosotros</a></li>
-				          <li><a href="#">Equipo</a></li>
-				          <li><a href="#">Actividades</a></li>
-				          <li><a href="#">Revista</a></li>
-				          <li><a href="#">Academica</a></li>
-				          <li><a href="#">Encuestas</a></li>
+				          <li><a href="nosotros.html">Nosotros</a></li>
+				          <li><a href="equipos.html">Equipo</a></li>
+				          <li><a href="actividades.html">Actividades</a></li>
+				          <li><a href="revista.html">Revista</a></li>
+				          <li><a href="academica.html">Información</a></li>
 				   	</ul>
 				</div>
 				<div class="col-md-2"></div>				
@@ -36,10 +36,10 @@
 	</header>
 	<section>
 		<div class="container">
-			<div class="row pag_int">
+			<div class="row">
 				<div class="col-md-12">
 					<div class="row cont_trabaj">
-						<div  class=" col-md-3"><img src="imagenes/grupal.jpg"></div>
+						<div class="col-md-3"><img src="imagenes/grupal.jpg"></div>
 						<div class="col-md-9">
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -51,7 +51,7 @@
 						</div>
 					</div>
 					<div class="row cont_trabaj">
-						<div  class=" col-md-3"><img src="imagenes/grupal.jpg"></div>
+						<div class="col-md-3"><img src="imagenes/grupal.jpg"></div>
 						<div class="col-md-9">
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -63,7 +63,7 @@
 						</div>
 					</div>
 					<div class="row cont_trabaj">
-						<div  class=" col-md-3"><img src="imagenes/grupal.jpg"></div>
+						<div class="col-md-3"><img src="imagenes/grupal.jpg"></div>
 						<div class="col-md-9">
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -93,20 +93,38 @@
 				</div>
 				<div class="fixed-right">
 					<ul class="unete-fixed">
-						<li class="unete-fixed-item"><a href="#"><img class="unete-img" src="imagenes/iconos/unete-equipo.png"></a></li>
+						<li class="unete-fixed-item"><a href="#"><button id="button-unete"><a href="#">ÚNETE</a></button> </a></li>
 					</ul>
 				</div>
 			</div>
 		</div>		
 	</section>
-	<footer>
+	<footer class="footer-distributed">
 		<div class="container">
-			<div class="row opacity">
-				<div class="col-md-12">
-					<div class="pd-2 contacto">
-					<h3>Contáctanos</h3>
-					</div>
+			<div class="footer-left">
+				<h3>Centro de Investigación Psicológica</h3>
+				<p class="footer-distributed-h1">Histórico - Cultural</p>
+				<p class="footer-company-name">CIPS-HC &copy; 2016</p>
+			</div>
+			<div class="footer-center">
+				<div>
+					<i class="fa icon-map-marker"></i>
+					<p><span>Arequipa, Perú</span> </p>
 				</div>
+				<div>
+					<i class="fa icon-phone2"></i>
+					<p>+51 999 999 999</p>
+				</div>
+				<div>
+					<i class="fa icon-envelope"></i>
+					<p><a href="mailto:cips_fernandogonzalezrey@hotmail.com">cips_fernandogonzalezrey@hotmail.com</a></p>
+				</div>
+			</div>
+			<div class="footer-right text-right">
+				<p class="footer-company-about">
+					<span>La verdadera dirección del desarrollo del pensamiento no es de lo individual a los social, sino de lo social a lo individual</span>
+					<span>L. S. Vygotsky</span>
+				</p>
 			</div>
 		</div>
 	</footer>
