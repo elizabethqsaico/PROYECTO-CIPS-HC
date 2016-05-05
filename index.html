@@ -3,10 +3,27 @@
   <head>
   	<title>CIPS-HC</title>
     <meta charset="utf-8">
+    <!--agrege-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+     <!--agrege-->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	 <!--agrege-->
+	 <meta name="description" content="Tilted Content Slideshow: Recreating the FWA.com landing page perspective slider" />
+		<meta name="keywords" content="fwa slider, perspective, 3d, slideshow, animation, web design" />
+		<meta name="author" content="Codrops" />
+	  <!--agrege-->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	
+<!--agrege-->
+<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="TiltedContentSlideshow/css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="TiltedContentSlideshow/css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="TiltedContentSlideshow/css/component.css" />
+	<!--agrege-->
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
+	
+	
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="css/footer-distributed-with-address-and-phones.css">
@@ -14,15 +31,31 @@
 	<link rel="stylesheet" href="css/icomoon/style.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 
-	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
-	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
-	<!--aumente-->
-	<link rel="stylesheet" type="text/css" href="engine0/style.css"/>
-	<script type="text/javascript" src="engine0/jquery.js"></script>
-	<!--aumente-->
-	<script src="js/bootstrap.min.js"></script></head>
+	
+	
+	<!--agrege-->
+	<script src="TiltedContentSlideshow/js/modernizr.custom.js"></script>
+	<!--agrege-->
+<!--aumente unete-->
+	<script src="js/bootstrap.min.js"></script>
+
+	</head>
+	<!--agrege-->
+			<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-7243260-2']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+	<!--agrege-->
 <body>
 	<header>
+	<div class="row opacity menu ">
 		<div class="container">
 			<div class="row opacity">
 				<div class="col-md-2">
@@ -43,67 +76,89 @@
 	</header>
 <section>
 	<div class="container">
-		<div class="row opacity">
-												<!-- Button trigger modal -->
-
-				<!-- Modal -->
-				<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-				  <div class="modal-dialog" role="document">
-				    <div class="modal-content">
-				      <div class="modal-header">
-				        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-				        <h4 class="modal-title text-center text-blue" id="myModalLabel"><strong>Unete a nuestro grupo de investigación</strong></h4>
-				      </div>
-				      <div class="modal-body">
-				        <!-- dentro formulario-->
-				        
-					<form action="index.html" method="get">
-					<p><input type="text" id="nombre" name="nombre" placeholder="Nombre" required ></p>
-					<p><input type="email" id="email" name="email" placeholder="Email" required></p>
-					<p><input type="Telefono" id="Telefono" name="Telefono" placeholder="Telefono" required></p>
-					
-					 <p class="text-blue font-size-12">Grado Académico 
-					  		<input type="radio" name="theme" id="theme_red" checked="checked" />
-					  		<label for="theme_red">Estudiante</label>
-					  		<input type="radio" name="theme" id="theme_white" />
-					  		<label for="theme_white">Egresado</label>
-					</p>
-					<div class="text-blue font-size-12">					  
-					  <label for="urg">Profesión: </label>
-					  <select id="urg"><option>Psicologia</option><option>Literatura</option><option>Comunicaciones</option><option>Derecho</option><option>Educación</option></select>
-					</div>
-					<div class="text-blue font-size-12">
-					  <label for="urg">Universidad: </label>
-					  <select id="urg"><option>San Agustin</option><option>Católica</option><option>Alas Peruanas</option><option>San Pablo</option><option>Tecnologica del Perú</option></select>
-					</div>
-					</form>	
-			<!--fin -->
-				      </div>
-				      <div class="modal-footer">
-				      	<!--<button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button> -->
-				        <button type="button" class="btn btn-primary text-white" data-dismiss="modal">Enviar</button>
-				      </div>
-				    </div>
-				  </div>
-				</div>
-				 <!-- fin modal -->
+		
 			<div class="col-md-12">
-				<div>
-					<div id="wowslider-container0">
-						<div class="ws_images">
-							<ul>
-								<li><img src="data0/images/grupal.jpg" alt="grupal" title="grupal" id="wows0_0"/></li>
-								<li><img src="data0/images/slide3.jpg" alt="slide3" title="slide3" id="wows0_1"/></li>
-								<li><img src="data0/images/slide4.jpg" alt="css slider" title="slide4" id="wows0_2"/>
-								</li>
-								<li><img src="data0/images/slide2.jpg" alt="slide2" title="slide2" id="wows0_3"/></li>
-							</ul>
+
+			<div class="slideshow" id="slideshow">
+				<ol class="slides">
+					<li class="current">
+						<div class="description">
+							<h2>Centro de Investigación</h2>
+							<p>Psicologico Historico Cultural.</p><br>
+							<p>Este colectivo se formo en el 2011,  en las aulas de la Universidad San Agustín,integrado por cinco alumnos de Pregrado.</p>
 						</div>
-					</div>
-					<script type="text/javascript" src="engine0/wowslider.js"></script>
-					<script type="text/javascript" src="engine0/script.js"></script>
-				</div>
-			</div>
+						<div class="tiltview col">
+							<a href="#"><img src="data0/images/grupal.jpg"/></a>
+							<a href="#"><img src="data0/images/slide2.jpg"/></a>
+						</div>
+					</li>
+					<li>
+						<div class="description">
+							<h2>Actualmente</h2>
+							<p>Nuestro colectivo, busca promover el dialogo y el debate con otros sistemas teóricos. Buscamos la integracion de nuesvos colaboradores quienes esten interesados en la corriente Psicologica Historico Cultual.</p>
+						</div>
+						<div class="tiltview col">
+							<a href="#"><img src="data0/images/slide3.jpg"/></a>
+							<a href="#"><img src="data0/images/slide4.jpg"/></a>
+						</div>
+					</li>
+					<li>
+						<div class="description">
+							<h2>Actualmente</h2>
+							<p>Nuestro colectivo, busca promover el dialogo y el debate con otros sistemas teóricos. Buscamos la integracion de nuesvos colaboradores quienes esten interesados en la corriente Psicologica Historico Cultual.</p>
+						</div>
+						<div class="tiltview col">
+							<a href="#"><img src="data0/images/grupal.jpg"/></a>
+							<a href="#"><img src="data0/images/slide2.jpg"/></a>
+						</div>
+					</li>
+					<li>
+						<div class="description">
+							<h2>Actualmente</h2>
+							<p>Nuestro colectivo, busca promover el dialogo y el debate con otros sistemas teóricos. Buscamos la integracion de nuesvos colaboradores quienes esten interesados en la corriente Psicologica Historico Cultual.</p>
+						</div>
+						<div class="tiltview col">
+							<a href="#"><img src="data0/images/slide3.jpg"/></a>
+							<a href="#"><img src="data0/images/slide4.jpg"/></a>
+						</div>
+					</li>
+					<li>
+						<div class="description">
+							<h2>Actualmente</h2>
+							<p>Nuestro colectivo, busca promover el dialogo y el debate con otros sistemas teóricos. Buscamos la integracion de nuesvos colaboradores quienes esten interesados en la corriente Psicologica Historico Cultual.</p>
+						</div>
+						<div class="tiltview col">
+							<a href="#"><img src="data0/images/grupal.jpg"/></a>
+							<a href="#"><img src="data0/images/slide2.jpg"/></a>
+						</div>
+					</li>
+					<li>
+						<div class="description">
+							<h2>Actualmente</h2>
+							<p>Nuestro colectivo, busca promover el dialogo y el debate con otros sistemas teóricos. Buscamos la integracion de nuesvos colaboradores quienes esten interesados en la corriente Psicologica Historico Cultual.</p>
+						</div>
+						<div class="tiltview col">
+							<a href="#"><img src="data0/images/slide3.jpg"/></a>
+							<a href="#"><img src="data0/images/slide4.jpg"/></a>
+						</div>
+					</li>
+				</ol>
+			</div><!-- /slideshow -->
+			
+			<!--agrege otras pagina-->
+		<div class="container">
+					<!--agrege-->
+		<script src="TiltedContentSlideshow/js/classie.js"></script>
+		<script src="TiltedContentSlideshow/js/tiltSlider.js"></script>
+		<script>
+			new TiltSlider( document.getElementById( 'slideshow' ) );
+		</script>
+		<!-- For the demo ad only -->   
+		<script src="http://tympanus.net/codrops/adpacks/demoad.js"></script>
+
+				<!--agrege-->
+		</div><!-- /container -->
+			
 			<div class="fixed-left">
 				<ul class="redes-fixed">
 					<li class="redes-fixed-item">
@@ -124,18 +179,9 @@
 					</li>
 				</ul>
 			</div>
-			<div class="fixed-right">
-					<ul class="unete-fixed">
-						<li class="unete-fixed-item"><a href="#"><button id="button-unete" type="button" data-toggle="modal" data-target="#myModal"><a href="#">ÚNETE</a></button> </a></li>
-					</ul>
-			</div>
+			
 		</div>
-		<div class="row">
-			<div class="col-md-12">
-				<p class="frase text-center">Somos un colectivo conformado por estudiantes y egresados de la Escuela
-					Profesional de Psicología, de la Universidad Nacional de San Agustín de Arequipa, Perú.</p>
-			</div>
-		</div>
+		
 	</div>
 </section>
 <footer class="footer-distributed">
