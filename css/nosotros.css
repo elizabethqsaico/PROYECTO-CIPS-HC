@@ -60,6 +60,11 @@ h1,h2,h3{
     color: #0A0A2A;
     margin: 0;
 }
+.text-gray{
+    font-family: "Latolight";
+    color: #2E2E2E;
+    margin-top:5px;
+}
 /* aqui se dice donde esta el tipo de letra que usamos */
 @font-face{
     font-family:Latolight ;
@@ -78,11 +83,8 @@ a{
 .text-right{
     text-align: right;
 }
-.text-blue{
-    color: #0A0A2A;
-}
-.text-white{
-    color: #fff;
+.text-left{
+    text-align: left;
 }
 /* quitarle el estilo a una lista */
 .lista-sinestilo{
@@ -115,7 +117,7 @@ a{
 /* estilo solo al logo*/
 header img{
     max-width: 80%;
-    padding-bottom: 10%;
+    padding-top: 5%;
 }
 /* inicio estilo para seccion de redes*/
 .fixed-left{
@@ -127,6 +129,7 @@ header img{
     transition-delay: .3s;
     pointer-events: auto;
     margin: 2.5rem;
+    width: 100px;
 }
 .redes-fixed{
     margin-left: -1.125rem;
@@ -141,8 +144,8 @@ header img{
     margin-bottom: 2%;
 }
 .redes-fixed-item img{
-    max-width: 5%;
-    padding-bottom: 1%;
+    max-width: 27%;
+    padding-bottom: 9%;
 }
 .redes-fixed-item img:hover{
     border-bottom: 2px solid #0A0A2A;
@@ -150,6 +153,13 @@ header img{
     transform: translateY(3px);
 }
 /* fin estilo para seccion de redes*/
+.frase{
+    font-weight: bold;
+    position: absolute;
+    bottom: 1rem;
+    right: 2.5rem;
+    left: 2.5rem;
+}
 /* inicio estilo para seccion de unete*/
 .fixed-right{
     position: absolute;
@@ -187,7 +197,6 @@ header img{
 }
 #button-unete:hover {
   background: #fff;
-  border-radius: 28px;
   border: 2px solid #0A0A2A;
   text-decoration: none;
 }
