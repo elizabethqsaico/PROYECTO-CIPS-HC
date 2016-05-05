@@ -20,8 +20,7 @@
 	<link rel="stylesheet" type="text/css" href="engine0/style.css"/>
 	<script type="text/javascript" src="engine0/jquery.js"></script>
 	<!--aumente-->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- End WOWSlider.com HEAD section --></head>
+	<script src="js/bootstrap.min.js"></script></head>
 <body>
 	<header>
 		<div class="container">
@@ -47,10 +46,8 @@
 			<div class="row">
 				<div class="col-md-12">
 					<h3 class="titulos text-left"><strong>¿Quienes somos?</strong></h3>
-					<!-- Button trigger modal -->
-				<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-				  UNETE
-				</button>
+					<hr>
+										<!-- Button trigger modal -->
 
 				<!-- Modal -->
 				<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -58,53 +55,41 @@
 				    <div class="modal-content">
 				      <div class="modal-header">
 				        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-				        <h4 class="modal-title" id="myModalLabel"><strong>Unete a nuestro grupo de investigación</strong></h4>
+				        <h4 class="modal-title text-center text-blue" id="myModalLabel"><strong>Unete a nuestro grupo de investigación</strong></h4>
 				      </div>
 				      <div class="modal-body">
 				        <!-- dentro formulario-->
 				        
-					<form action="revista.html" method="get">
-					<p>
-
-						<input type="text" id="nombre" name="nombre" placeholder="Nombre" required >
-					</p>
-					<p>
-							<input type="email" id="email" name="email" placeholder="Email" required>
-					</p>
-					<p>
-							<input type="Telefono" id="Telefono" name="Telefono" placeholder="Telefono" required>
-					</p>
-					<fieldset>
-					 <legend>Grado Academico </legend>
+					<form action="nosotros.html" method="get">
+					<p><input type="text" id="nombre" name="nombre" placeholder="Nombre" required ></p>
+					<p><input type="email" id="email" name="email" placeholder="Email" required></p>
+					<p><input type="Telefono" id="Telefono" name="Telefono" placeholder="Telefono" required></p>
+					
+					 <p class="text-blue font-size-12">Grado Académico 
 					  		<input type="radio" name="theme" id="theme_red" checked="checked" />
 					  		<label for="theme_red">Estudiante</label>
 					  		<input type="radio" name="theme" id="theme_white" />
 					  		<label for="theme_white">Egresado</label>
-					</fieldset>
-					<div>
+					</p>
+					<div class="text-blue font-size-12">					  
 					  <label for="urg">Profesión: </label>
 					  <select id="urg"><option>Psicologia</option><option>Literatura</option><option>Comunicaciones</option><option>Derecho</option><option>Educación</option></select>
 					</div>
-					<div>
+					<div class="text-blue font-size-12">
 					  <label for="urg">Universidad: </label>
 					  <select id="urg"><option>San Agustin</option><option>Católica</option><option>Alas Peruanas</option><option>San Pablo</option><option>Tecnologica del Perú</option></select>
 					</div>
-					
-
 					</form>	
-				
 			<!--fin -->
 				      </div>
 				      <div class="modal-footer">
-				        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
-				        <button type="button" class="btn btn-primary">Enviar</button>
-
+				      	<!--<button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button> -->
+				        <button type="button" class="btn btn-primary text-white" data-dismiss="modal">Enviar</button>
 				      </div>
 				    </div>
 				  </div>
 				</div>
 				 <!-- fin modal -->
-					<hr>
 					<div class="row">
 						<div class="col-md-6">
 							<p class="font-size-12">Somos un colectivo conformado por estudiantes y egresados de la Escuela Profesional de Psicología, de la Universidad Nacional de San Agustín de Arequipa, Perú. Buscamos comprender la realidad en su complejidad a través de la pluralidad epistemológica y el dialogo de diversas perspectivas como las teorías de la subjetividad, teorías de la complejidad, psicología crítica y otras perspectivas contrahegemómicas. Proponemos abrir espacios de diálogo y debate dentro de las ciencias sociales que permitan generar alternativas tanto en las prácticas como en la construcción de conocimientos frente a los modelos dominantes.</p>
@@ -142,7 +127,7 @@
 				</div>
 				<div class="fixed-right">
 					<ul class="unete-fixed">
-						<li class="unete-fixed-item"><a href="#"><button id="button-unete"><a href="#">ÚNETE</a></button> </a></li>
+						<li class="unete-fixed-item"><a href="#"><button id="button-unete" type="button" data-toggle="modal" data-target="#myModal"><a href="#">ÚNETE</a></button> </a></li>
 					</ul>
 				</div>
 			</div>

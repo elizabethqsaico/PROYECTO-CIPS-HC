@@ -191,7 +191,13 @@ header img{
 }
 #button-unete:hover {
   background: #fff;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
   border: 2px solid #0A0A2A;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 8px 20px 8px 20px;
   text-decoration: none;
 }
 #button-unete a{ color: #0A0A2A; text-decoration: none; font-weight: bold;}

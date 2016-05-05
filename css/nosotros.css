@@ -78,6 +78,12 @@ a{
 .text-right{
     text-align: right;
 }
+.text-blue{
+    color: #0A0A2A;
+}
+.text-white{
+    color: #fff;
+}
 /* quitarle el estilo a una lista */
 .lista-sinestilo{
     list-style-type: none;
@@ -181,6 +187,7 @@ header img{
 }
 #button-unete:hover {
   background: #fff;
+  border-radius: 28px;
   border: 2px solid #0A0A2A;
   text-decoration: none;
 }

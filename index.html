@@ -1,46 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<title>CIPS-HC</title>
-	<meta charset="utf-8">
+  <head>
+  	<title>CIPS-HC</title>
+    <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<!-- Latest compiled and minified JavaScript -->
+	<script src="js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="css/footer-distributed-with-address-and-phones.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/icomoon/style.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 
 	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
+	<!--aumente-->
 	<link rel="stylesheet" type="text/css" href="engine0/style.css"/>
 	<script type="text/javascript" src="engine0/jquery.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<!-- End WOWSlider.com HEAD section --></head>
+	<!--aumente-->
+	<script src="js/bootstrap.min.js"></script></head>
 <body>
-<header>
-	<div class="container">
-		<div class="row opacity">
-			<div class="col-md-2">
-				<img src="imagenes/logo.png">
+	<header>
+		<div class="container">
+			<div class="row opacity">
+				<div class="col-md-2">
+					<img src="imagenes/logo.png">
+				</div>
+				<div class="col-md-8">
+					<ul id="ejm2" class="ptb-4 text-center">
+				          <li><a href="nosotros.html">Nosotros</a></li>
+				          <li><a href="equipo.html">Equipo</a></li>
+				          <li><a href="actividades.html">Actividades</a></li>
+				          <li><a href="revista.html">Revista</a></li>
+				          <li><a href="academica.html">Información</a></li>
+				   	</ul>
+				</div>
+				<div class="col-md-2"></div>				
 			</div>
-			<div class="col-md-8">
-				<ul id="ejm2" class="ptb-4 text-center">
-					<li><a href="nosotros.html">Nosotros</a></li>
-					<li><a href="equipo.html">Equipo</a></li>
-					<li><a href="actividades.html">Actividades</a></li>
-					<li><a href="revista.html">Revista</a></li>
-					<li><a href="academica.html">Información</a></li>
-				</ul>
-			</div>
-			<div class="col-md-2"></div>
 		</div>
-	</div>
-</header>
+	</header>
 <section>
 	<div class="container">
 		<div class="row opacity">
+												<!-- Button trigger modal -->
+
+				<!-- Modal -->
+				<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				  <div class="modal-dialog" role="document">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				        <h4 class="modal-title text-center text-blue" id="myModalLabel"><strong>Unete a nuestro grupo de investigación</strong></h4>
+				      </div>
+				      <div class="modal-body">
+				        <!-- dentro formulario-->
+				        
+					<form action="index.html" method="get">
+					<p><input type="text" id="nombre" name="nombre" placeholder="Nombre" required ></p>
+					<p><input type="email" id="email" name="email" placeholder="Email" required></p>
+					<p><input type="Telefono" id="Telefono" name="Telefono" placeholder="Telefono" required></p>
+					
+					 <p class="text-blue font-size-12">Grado Académico 
+					  		<input type="radio" name="theme" id="theme_red" checked="checked" />
+					  		<label for="theme_red">Estudiante</label>
+					  		<input type="radio" name="theme" id="theme_white" />
+					  		<label for="theme_white">Egresado</label>
+					</p>
+					<div class="text-blue font-size-12">					  
+					  <label for="urg">Profesión: </label>
+					  <select id="urg"><option>Psicologia</option><option>Literatura</option><option>Comunicaciones</option><option>Derecho</option><option>Educación</option></select>
+					</div>
+					<div class="text-blue font-size-12">
+					  <label for="urg">Universidad: </label>
+					  <select id="urg"><option>San Agustin</option><option>Católica</option><option>Alas Peruanas</option><option>San Pablo</option><option>Tecnologica del Perú</option></select>
+					</div>
+					</form>	
+			<!--fin -->
+				      </div>
+				      <div class="modal-footer">
+				      	<!--<button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button> -->
+				        <button type="button" class="btn btn-primary text-white" data-dismiss="modal">Enviar</button>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+				 <!-- fin modal -->
 			<div class="col-md-12">
 				<div>
 					<div id="wowslider-container0">
@@ -79,11 +125,9 @@
 				</ul>
 			</div>
 			<div class="fixed-right">
-				<ul class="unete-fixed">
-					<li class="unete-fixed-item"><a href="#">
-						<button id="button-unete"><a href="#">ÚNETE</a></button>
-					</a></li>
-				</ul>
+					<ul class="unete-fixed">
+						<li class="unete-fixed-item"><a href="#"><button id="button-unete" type="button" data-toggle="modal" data-target="#myModal"><a href="#">ÚNETE</a></button> </a></li>
+					</ul>
 			</div>
 		</div>
 		<div class="row">
