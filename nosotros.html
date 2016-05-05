@@ -16,7 +16,11 @@
 
 	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
 	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
+	<!--aumente-->
+	<link rel="stylesheet" type="text/css" href="engine0/style.css"/>
 	<script type="text/javascript" src="engine0/jquery.js"></script>
+	<!--aumente-->
+	<script src="js/bootstrap.min.js"></script>
 	<!-- End WOWSlider.com HEAD section --></head>
 <body>
 	<header>
@@ -43,6 +47,58 @@
 			<div class="row">
 				<div class="col-md-12">
 					<h3 class="titulos text-left"><strong>¿Quienes somos?</strong></h3>
+					<!-- Button trigger modal -->
+				<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+				  UNETE
+				</button>
+
+				<!-- Modal -->
+				<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				  <div class="modal-dialog" role="document">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				        <h4 class="modal-title" id="myModalLabel"><strong>Unete a nuestro grupo de investigación</strong></h4>
+				      </div>
+				      <div class="modal-body">
+				        <!-- dentro formulario-->
+				        
+					<form action="revista.html" method="get">
+					<p>
+
+						<input type="text" id="nombre" name="nombre" placeholder="Nombre" required >
+					</p>
+					<p>
+							<input type="email" id="email" name="email" placeholder="Email" required>
+					</p>
+					<p>
+							<input type="Telefono" id="Telefono" name="Telefono" placeholder="Telefono" required>
+					</p>
+					<fieldset>
+					 <legend>Grado Academico </legend>
+					  		<input type="radio" name="theme" id="theme_red" checked="checked" />
+					  		<label for="theme_red">Estudiante</label>
+					  		<input type="radio" name="theme" id="theme_white" />
+					  		<label for="theme_white">Egresado</label>
+					</fieldset>
+					<p>
+							<input type="text" id="universidad" name="universidad" placeholder="Universidad" required>
+					</p>
+					
+
+					</form>	
+				
+			<!--fin -->
+				      </div>
+				      <div class="modal-footer">
+				        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+				        <button type="button" class="btn btn-primary">Enviar</button>
+
+				      </div>
+				    </div>
+				  </div>
+				</div>
+				 <!-- fin modal -->
 					<hr>
 					<div class="row">
 						<div class="col-md-6">
