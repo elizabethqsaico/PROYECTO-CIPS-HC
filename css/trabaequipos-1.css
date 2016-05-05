@@ -60,6 +60,11 @@ h1,h2,h3{
     color: #0A0A2A;
     margin: 0;
 }
+.text-gray{
+    font-family: "Latolight";
+    color: #2E2E2E;
+    margin-top:5px;
+}
 /* aqui se dice donde esta el tipo de letra que usamos */
 @font-face{
     font-family:Latolight ;
@@ -77,6 +82,9 @@ a{
 /* alinear un elemento en el centro */
 .text-right{
     text-align: right;
+}
+.text-left{
+    text-align: left;
 }
 /* quitarle el estilo a una lista */
 .lista-sinestilo{
@@ -106,14 +114,10 @@ a{
 .pt-5{
     padding-top: 5%;
 }
-/* coloca un 5% arriba de padding a un elemento*/
-.pt-3{
-    padding-top: 3%;
-}
 /* estilo solo al logo*/
 header img{
     max-width: 80%;
-    padding-bottom: 10%;
+    padding-top: 5%;
 }
 /* inicio estilo para seccion de redes*/
 .fixed-left{
@@ -149,6 +153,13 @@ header img{
     transform: translateY(3px);
 }
 /* fin estilo para seccion de redes*/
+.frase{
+    font-weight: bold;
+    position: absolute;
+    bottom: 1rem;
+    right: 2.5rem;
+    left: 2.5rem;
+}
 /* inicio estilo para seccion de unete*/
 .fixed-right{
     position: absolute;

@@ -102,6 +102,9 @@ a{
     padding-top: 3%;
     padding-bottom: 4%;
 }
+.mt-5{
+    margin-top: 5%;
+}
 /* coloca un 2% de padding a un elemento*/
 .pd-2{
     padding: 2%;
