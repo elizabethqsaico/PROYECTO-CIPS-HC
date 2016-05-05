@@ -78,9 +78,6 @@ a{
 .text-right{
     text-align: right;
 }
-.text-left{
-    text-align: left;
-}
 /* quitarle el estilo a una lista */
 .lista-sinestilo{
     list-style-type: none;
@@ -108,6 +105,10 @@ a{
 /* coloca un 5% arriba de padding a un elemento*/
 .pt-5{
     padding-top: 5%;
+}
+/* coloca un 5% arriba de padding a un elemento*/
+.pt-3{
+    padding-top: 3%;
 }
 /* estilo solo al logo*/
 header img{
@@ -148,13 +149,6 @@ header img{
     transform: translateY(3px);
 }
 /* fin estilo para seccion de redes*/
-.frase{
-    font-weight: bold;
-    position: absolute;
-    bottom: 1rem;
-    right: 2.5rem;
-    left: 2.5rem;
-}
 /* inicio estilo para seccion de unete*/
 .fixed-right{
     position: absolute;
@@ -197,49 +191,37 @@ header img{
 }
 #button-unete a{ color: #0A0A2A; text-decoration: none; font-weight: bold;}
 }/* fin estilo para seccion de unete*/
+/*patty medio*/
 
-/*ver mas informacion integrantes*/
-
-    #button-integrantes{
-        width: 55%;
-        color:#0B2161;
-        text-align: center;
-        border-color: 1px solid #0B2161 ;
-      }
-    
-    #button-integrantes:hover{
-          border:2px solid #0B2161 ;
-    }
-    #button-integrantes a:hover{
-        text-decoration: none;
-        color:#011093;
-    }
-
-
-/*integrantes*/
-.fot_inst{
-    width: 27%;
-    margin: 2% 3%;
-    display: inline-block;
-    vertical-align: top;
-    text-align: center; 
+.button-trabajo{
+    width: 15%;
     color:#0B2161;
-    font-weight: bold;
-    font-size: 13px;
+    text-align: center;
+    border-color: 1px solid #0B2161 ;
 }
-img{
+.button-trabajo:hover{
+    border:2px solid #0B2161 ;
+}
+.button-trabajo a:hover{
+    text-decoration: none;
+    color:#011093;
+}
+.qitar{
+    padding: 2% 0%;
+}
+.cont_trabaj{
+    margin: 4% auto;
+}
+.traba-integrante{
+    border-radius: 100%;
     max-width: 100%;
 }
-
-li.fot_inst > img{
-    border-radius: 100%;
-}
-.titulos{
-    margin: 0;
-    padding-top: 2%;
-    padding-bottom: 0;
-    color: #0B2161;
+.font-size-12{
+    font-size: 13px;
 }
 hr{
     border-color:#0B2161;
+}
+img{
+    max-width: 100%;
 }
