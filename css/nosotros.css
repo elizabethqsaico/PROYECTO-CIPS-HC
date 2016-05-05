@@ -106,6 +106,9 @@ a{
 .pd-2{
     padding: 2%;
 }
+.pd-3{
+    padding: 3%;
+}
 /* coloca un 5% de padding a un elemento*/
 .pd-5{
     padding: 5%;
@@ -217,7 +220,9 @@ header img{
 hr{
     border-color:#0B2161;
 }
-
+.mg-0{
+    text-align: left;
+}
 img{
     max-width: 100%;
 }

@@ -233,6 +233,9 @@ header img{
 hr{
     border-color:#0B2161;
 }
+.hr-gray{
+    border-color:#ccc;
+}
 img{
     max-width: 100%;
 }
