@@ -2,21 +2,25 @@
 <html lang="en">
   	<head>
 	  	<title>CIPS-HC</title>
-	    <meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-		<!-- Optional thesme -->
-
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-		<!-- Latest compiled and minified JavaScript -->
-		 
-		<!--aumente este js--> 
-		<script src="js/modal.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-
-		<link rel="stylesheet" type="text/css" href="css/revista.css">
+ 	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  	<!-- Latest compiled and minified CSS -->
+  	<link rel="stylesheet" href="css/bootstrap.min.css">
+  	<!-- Latest compiled and minified JavaScript -->
+ 	<script src="js/bootstrap.min.js"></script>
+  	<link rel="stylesheet" href="css/footer-distributed-with-address-and-phones.css">
+  	<link rel="stylesheet" href="css/font-awesome.min.css">
+  	<link rel="stylesheet" href="css/icomoon/style.css">
+  	<link rel="stylesheet" type="text/css" href="css/revista.css">
+  
+  	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+ 	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
+ 	
+ 	<link rel="stylesheet" type="text/css" href="engine0/style.css"/>
+  	<script type="text/javascript" src="engine0/jquery.js"></script>
+ <script src="js/bootstrap.min.js"></script>
+  	<!-- End WOWSlider.com HEAD section -->
 	</head>
 <body>
 	<header>
@@ -43,28 +47,52 @@
 		<div class="container">
 			<div class="row pag_int">
 				<div class="col-md-12">
-
-                <!--<div class="cont_revista">
-                	<img id="uno"src="imagenes/revista/1.png" alt="">
-                	<img id="siete"src="imagenes/revista/7.png" alt="">
-                	<img id="tres"src="imagenes/revista/3.png" alt="">
-                	<img id="ocho"src="imagenes/revista/8.png" alt="">
-                	<img id="dos"src="imagenes/revista/2.png" alt="">
-                	<img id="cinco"src="imagenes/revista/5.png" alt="">
-                	<img id="cuatro"src="imagenes/revista/4.png" alt="">
-                	<img id="seis"src="imagenes/revista/6.png" alt="">
-                </div>-->
 				<!-- Button trigger modal -->
+				<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+				  SUBCRIPCIONES
+				</button>
 
-               <!-- Patyy aqui!!! -->
-			
- 
+				<!-- Modal -->
+				<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				  <div class="modal-dialog" role="document">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				        <h4 class="modal-title" id="myModalLabel"><strong>Suscripciones a nuestra Revista de Psicologia</strong> </h4>
+				      </div>
+				      <div class="modal-body">
+				        <!-- dentro formulario-->
+				        
+					<form action="revista.html" method="get">
+					<p>
 
+						<input type="text" id="nombre" name="nombre" placeholder="Nombre" required >
+					</p>
+					<p>
+							<input type="email" id="email" name="email" placeholder="Email" required>
+					</p>
+					<p>
+							<input type="Telefono" id="Telefono" name="Telefono" placeholder="Telefono" required>
+					</p>
+					<p>
+						<textarea id="Observaciones" name="Observaciones" placeholder="Observaciones" cols="56" rows="5"  required></textarea>
+					</p>
+					</form>	
+				
+			<!--fin -->
+				      </div>
+				      <div class="modal-footer">
+				        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+				        <button type="button" class="btn btn-primary">Enviar </button>
 
-
-
-
-      			</div>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+				 <!-- fin modal -->
+                 
+                 
+				</div>
 				<div class="fixed-left">
 						<ul class="redes-fixed">
 							<li class="redes-fixed-item">
@@ -81,11 +109,11 @@
 							</li>
 						</ul>
 				</div>
-				<div class="fixed-right">
+				<!--<div class="fixed-right">
 					<ul class="unete-fixed">
 						<li class="unete-fixed-item"><a href="#"><img class="unete-img" src="imagenes/iconos/unete-equipo.png"></a></li>
 					</ul>
-				</div>
+				</div>-->
 			</div>
 		</div>		
 	</section>
