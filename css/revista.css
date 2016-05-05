@@ -144,7 +144,7 @@ header img{
 }
 /* fin estilo para seccion de redes*/
 /* inicio estilo para seccion de unete*/
-.fixed-right{
+/*.fixed-right{
     position: fixed;
     top: 0;
     right: 0;
@@ -183,6 +183,7 @@ header img{
 	border-radius: 5%;
 	border: 1px solid #0B2161;
 	margin: 2% auto;
+
 }
 
 /*revista*/
@@ -218,3 +219,7 @@ header img{
 }
 
 /*revista*/
+/*formulario*/
+invalid {
+border: 2px solid #ff0000;
+}
